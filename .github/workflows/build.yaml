@@ -82,4 +82,4 @@ jobs:
       - name: Run the JAR and Run deliver script
         run: |
           java -jar my-app-1.0-SNAPSHOT.jar
-          ./jenkins/scripts/deliver.sh
+          ./deliver.sh
