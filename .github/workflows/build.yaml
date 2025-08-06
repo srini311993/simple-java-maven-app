@@ -82,4 +82,5 @@ jobs:
       - name: Run the JAR and Run deliver script
         run: |
           java -jar my-app-1.0-SNAPSHOT.jar
+          chmod 600 deliver.sh
           ./deliver.sh
